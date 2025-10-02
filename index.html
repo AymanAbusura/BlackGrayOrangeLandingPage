@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShaddersAgent™ | Official 2025 Update </title>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="styles/intlTelInput.css">
+    <link rel="stylesheet" type="text/css" href="styles/new.css">
+    <link rel="stylesheet" href="styles/style-min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+    <div class="bg">
+        <header class="header">
+            <div class="upper__header">
+                <a href="/" class="logo"><img src="assets/logo.svg" alt="Logo" loading="lazy"></a>
+                <div class="right-section desktop">
+                    <div class="language">
+                        <a id="toggle" class="menu__link stop_hover"><div class="iti__flag iti__gb"></div>En</a>
+                        <ul class="submenu">
+                            <li class="subitem"><a href="/languages/dk/"><div class="iti__flag iti__dk"></div>Dk</a></li>
+                            <li class="subitem"><a href="/languages/de/"><div class="iti__flag iti__de"></div>De</a></li>
+                            <li class="subitem"><a href="/languages/cz/"><div class="iti__flag iti__cz"></div>CZ</a></li>
+                            <li class="subitem"><a href="/languages/es/"><div class="iti__flag iti__es"></div>Es</a></li>
+                            <li class="subitem"><a href="/languages/fi/"><div class="iti__flag iti__fi"></div>fi</a></li>
+                            <li class="subitem"><a href="/languages/fr/"><div class="iti__flag iti__fr"></div>Fr</a></li>
+                            <li class="subitem"><a href="/languages/gr/"><div class="iti__flag iti__gr"></div>Gr</a></li>
+                            <li class="subitem"><a href="/languages/it/"><div class="iti__flag iti__it"></div>IT</a></li>
+                            <li class="subitem"><a href="/languages/hu/"><div class="iti__flag iti__hu"></div>HU</a></li>
+                            <li class="subitem"><a href="/languages/nl/"><div class="iti__flag iti__nl"></div>NL</a></li>
+                            <li class="subitem"><a href="/languages/no/"><div class="iti__flag iti__no"></div>NO</a></li>
+                            <li class="subitem"><a href="/languages/pl/"><div class="iti__flag iti__pl"></div>PL</a></li>
+                            <li class="subitem"><a href="/languages/pt/"><div class="iti__flag iti__pt"></div>PT</a></li>
+                            <li class="subitem"><a href="/languages/ru/"><div class="iti__flag iti__ru"></div>RU</a></li>
+                            <li class="subitem"><a href="/languages/se/"><div class="iti__flag iti__se"></div>SE</a></li>
+                        </ul>
+                    </div>
+                    <a href="/pages/login/">
+                        <button class="login-btn">
+                            Login
+                        </button>
+                    </a>
+                </div>
+
+                <div class="mobile-menu">
+                    <div class="language languages__mobile">
+                        <a id="mobile-toggle" class="menu__link stop_hover"><div class="iti__flag iti__gb"></div>En</a>
+                        <ul class="submenu">
+                            <li class="subitem"><a href="/languages/dk/"><div class="iti__flag iti__dk"></div>Dk</a></li>
+                            <li class="subitem"><a href="/languages/de/"><div class="iti__flag iti__de"></div>De</a></li>
+                            <li class="subitem"><a href="/languages/cz/"><div class="iti__flag iti__cz"></div>CZ</a></li>
+                            <li class="subitem"><a href="/languages/es/"><div class="iti__flag iti__es"></div>Es</a></li>
+                            <li class="subitem"><a href="/languages/fi/"><div class="iti__flag iti__fi"></div>fi</a></li>
+                            <li class="subitem"><a href="/languages/fr/"><div class="iti__flag iti__fr"></div>Fr</a></li>
+                            <li class="subitem"><a href="/languages/gr/"><div class="iti__flag iti__gr"></div>Gr</a></li>
+                            <li class="subitem"><a href="/languages/it/"><div class="iti__flag iti__it"></div>IT</a></li>
+                            <li class="subitem"><a href="/languages/hu/"><div class="iti__flag iti__hu"></div>HU</a></li>
+                            <li class="subitem"><a href="/languages/nl/"><div class="iti__flag iti__nl"></div>NL</a></li>
+                            <li class="subitem"><a href="/languages/no/"><div class="iti__flag iti__no"></div>NO</a></li>
+                            <li class="subitem"><a href="/languages/pl/"><div class="iti__flag iti__pl"></div>PL</a></li>
+                            <li class="subitem"><a href="/languages/pt/"><div class="iti__flag iti__pt"></div>PT</a></li>
+                            <li class="subitem"><a href="/languages/ru/"><div class="iti__flag iti__ru"></div>RU</a></li>
+                            <li class="subitem"><a href="/languages/se/"><div class="iti__flag iti__se"></div>SE</a></li>
+                        </ul>
+                    </div>
+                    <div id="burger-menu"><span></span></div>
+                    <div id="menu">
+                        <ul>
+                          <li><a href="/">Home</a></li>
+                          <li><a href="/pages/about/">About Us</a></li>
+                          <li><a href="/pages/signup/">Sign Up</a></li>
+                          <li><a href="/pages/contact/">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="lower__header">
+                <nav class="nav desktop-nav">
+                    <a class="menu__link" href="/">Home</a>
+                    <a class="menu__link" href="/pages/about/">About Us</a>
+                    <a class="menu__link" href="/pages/contact/">Contact Us</a>
+                    <a class="menu__link" href="/pages/signup/">Sign Up</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="banner__logo"></div>
+            <div class="container home__hold">
+                <div class="home__body">
+                    <div class="home__content">
+                        <div class="home__content__1">
+                            <p>01</p>
+                            <hr class="other__custom-hr">
+                            <h1 class="home__title">INVEST PROFITABLY - DEVELOP TOGETHER WITH US!</h1>
+                        </div>
+                        <div class="home__content__2">
+                            <p class="home__text">Investing is an important tool for every person who wants to secure their financial future and gain independence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__form">
+                    <div class="form__bg angeled-desgin" id="form">
+                        <h3 class="title-form">Maximize Your Gains with <br>ShaddersAgent</h3>
+                        <form action="order.php" class="form" method="POST">
+
+                            <input type="hidden" name="ip" id="ip" value="<?=$_SERVER['REMOTE_ADDR'] ?? '';?>">
+                            <input type="hidden" name="country" id="country" value="">
+                            <input type="hidden" name="area_code" id="prefix" value="">
+
+                            <div class="form-group input-wrapper relative-input-wrapper">
+                                <input type="text" placeholder="Enter your First Name" name="first_name" class="form-control" autocomplete="on" value="" data-validation-status="inactive">
+                                <div data-error-status="inactive" data-for-error="first_name" class="error">Your first name is too short (at least 2 characters)</div>
+                                <span data-check-icon="inactive" data-check-icon-for="first_name" class="check-icon"><img class="checkbox" src="assets/check-icon.png" alt="✔"></span>
+                            </div>
+                            <div class="form-group input-wrapper relative-input-wrapper">
+                                <input type="text" placeholder="Enter your Last Name" name="last_name" class="form-control" autocomplete="on" value="" data-validation-status="inactive">
+                                <div data-error-status="inactive" data-for-error="last_name" class="error">Your last name is too short (at least 2 characters)</div>
+                                <span data-check-icon="inactive" data-check-icon-for="last_name" class="check-icon"><img class="checkbox" src="assets/check-icon.png" alt="✔"></span>
+                            </div>
+                            <div class="form-group input-wrapper relative-input-wrapper">
+                                <input type="email" placeholder="Enter your Email Address" name="email" class="form-control" autocomplete="on" value="" data-validation-status="inactive">
+                                <div data-error-status="inactive" data-for-error="email" class="error">Please enter your real email address (example@email.com)</div>
+                                <span data-check-icon="inactive" data-check-icon-for="email" class="check-icon"><img class="checkbox" src="assets/check-icon.png" alt="✔"></span>
+                            </div>
+                            <div class="form-group input-wrapper relative-input-wrapper">
+                                <input type="tel" id="phone" name="phone" class="form-control" value="" data-validation-status="inactive" autocomplete="off" data-intl-tel-input-id="0" placeholder="Enter your phone number" style="padding-left: 87px;">
+                                <div data-error-status="inactive" data-for-error="phone" class="error">Please enter a valid phone number.</div>
+                                <span data-check-icon="inactive" data-check-icon-for="phone" class="check-icon"><img class="checkbox" src="assets/check-icon.png" alt="✔"></span>
+                                <div id="api-error" class="api-error error">Error.</div>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-desgin">
+                                    Register Now 
+                                    <hr class="custom-hr"> 
+                                    <img src="assets/arrow-right.svg" alt="Arrow" loading="lazy"> 
+                                </button>
+                            </div>
+                            <div id="js-loader" class="form__wrapper-loader loader">
+                                <noscript>Please enable JavaScript in your browser or refresh the page and wait.</noscript>
+                            </div>
+                        </form>
+                        <ul>
+                            <li>The convenience of this platform allows investors of all backgrounds and abilities to connect to it. This diversity has become one of the biggest advantages of ShaddersAgent because you get support from the best.</li>
+                            <li>Your personal information may be shared with third parties providing trading services as provided in the website privacy policy.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="welcome__section">
+        <div class="container welcome__section__container">
+            <div class="text-content">
+                <p class="welcome">Welcome to ShaddersAgent</p>
+                <h1>What is ShaddersAgent</h1>
+                <p class="description">ShaddersAgent is a modern investment ecosystem created for those who value confidence in the future. We combine the experience of experts, innovative technologies and transparent work mechanisms to give everyone the opportunity to effectively manage their capital.</p>
+                <p class="description">Our goal is to make investments accessible, understandable and effective. We provide a user-friendly interface, real-time analytics and a wide range of tools – from classic assets to promising areas, including funds and innovative projects.</p>
+                <div class="contact-welcome-btn">
+                    <a href="/pages/contact">
+                        <button class="contact-btn btn-desgin">Contact Us</button>
+                    </a>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="assets/learning.webp" alt="Working on laptop" loading="lazy" class="angeled-desgin">
+            </div>
+        </div>
+
+        <div class="container welcome__stats__container">
+            <div class="welcome__stat__item">
+                <h2>8.5K+</h2>
+                <p>Active users</p>
+            </div>
+            <div class="welcome__stat__item">
+                <h2>99%</h2>
+                <p>Profitable deals</p>
+            </div>
+            <div class="welcome__stat__item">
+                <h2>15+</h2>
+                <p>Years of experience</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why__section">
+        <div class="container why__section__container">
+            <div class="why-text-content">
+                <p class="why">Welcome to ShaddersAgent</p>
+                <h1>What is ShaddersAgent</h1>
+                <p class="description">By choosing our platform, you can rest assured that your money is placed in a sare and secure place tnat will continue to grow over time. You cannot underestimate the value of al platform that protects your money.</p>
+                <div class="why__points">
+                    <div class="why__point__item">
+                        <img src="assets/check_point.svg" alt="Check point" loading="lazy">
+                        <div class="why__point__item_info">
+                            <span>Support 24/7</span>
+                            <p>You always get answers and help at any time of the day or night</p>
+                        </div>
+                    </div>
+
+                    <div class="why__point__item">
+                        <img src="assets/check_point.svg" alt="Check point" loading="lazy">
+                        <div class="why__point__item_info">
+                            <span>Navigable Interface</span>
+                            <p>Simple and intuitive investment management without unnecessary complications.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="why__point__item">
+                        <img src="assets/check_point.svg" alt="Check point" loading="lazy">
+                        <div class="why__point__item_info">
+                            <span>265K Payments</span>
+                            <p>Access to proven and innovative solutions for captial growth.</p>
+                        </div>
+                    </div>
+
+                    <div class="why__point__item">
+                        <img src="assets/check_point.svg" alt="Check point" loading="lazy">
+                        <div class="why__point__item_info">
+                            <span>Modern Investment Strategies</span>
+                            <p>Consulting, logistic and on-site expertise to keep your project on track.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="why-image-content">
+                <img src="assets/thinking_girl.webp" alt="Thinking Girl" loading="lazy" class="angeled-desgin">
+            </div>
+        </div>
+    </section>
+
+    <section class="block getting__section">
+        <div class="container getting__container">
+            <h2 class="title-2 center">Getting Started with ShaddersAgent</h2>
+            <p class="getting__info">We are glad that you have decided to join ShaddersAgent and take a step towards financial independence with us. To make registration quick and easy. please read the simple rules below.</p>
+            <div class="getting__steps">
+                <div class="getting__step">
+                    <span class="step-number">1</span>
+                    <h3>Register An Account</h3>
+                    <p>First, you must register an account with ShaddersAgent.</p>
+                </div>
+
+                <div class="getting__step">
+                    <span class="step-number">2</span>
+                    <h3>Check for a Confirmation</h3>
+                    <p>After you fill in your details, you will need to wait for a confirmation email.</p>
+                </div>
+
+                <div class="getting__step">
+                    <span class="step-number">3</span>
+                    <h3>Make a Deposit</h3>
+                    <p>In order to start investing on the platform, you need to deposit a minimum of $250.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="faq__row">
+                <div class="faq-column">
+                    <h2 class="faq-heading">Frequently asked <br> questions</h2>
+                    <div class="slideshow">
+                        <div class="slide active">
+                            <h1>Can you use the platform at ShaddersAgent for free?</h1>
+                            <p>ShaddersAgent allows you to deposit and withdraw money as you see fit. Simply go to your dashboard and click "make a deposit" or "withdraw cash".</p>
+                        </div>
+                        <div class="slide">
+                            <h1>How do I check the status of my investments?</h1>
+                            <p></p>
+                        </div>
+                        <div class="slide">
+                            <h1>How do I make a deposit or a withdrawal?</h1>
+                            <p></p>
+                        </div>
+                        <div class="slide">
+                            <h1>How can I close my investment account?</h1>
+                            <p>ShaddersAgent allows you to deposit and withdraw money as you see fit. Simply go to your dashboard and click "make a deposit" or "withdraw cash".</p>
+                        </div>
+                        <div class="slide">
+                            <h1>What types of investment are available?</h1>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <button class="controls__btn prev"><img src="assets/previous.png" alt="Previous"></button>
+                        <button class="controls__btn next"><img src="assets/next.png" alt="Previous"></button>
+                    </div>
+                </div>
+                <div class="faq-image-content">
+                    <img src="assets/notebook.webp" alt="Notebook" loading="lazy" class="angeled-desgin">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="holder">
+        <div class="container holder__container">
+            <div class="holder__body">
+                <h2 class="title-2">Something in mind?</h2>
+                <p class="holder__body__info">Leave your email and we will contact you shortly, or go to the "contact us" tab and write your question.</p>
+
+                <form class="holder__form" action="#">
+                    <input type="email" name="email" placeholder="Enter You email" required>
+                    <button class="btn__1 btn-desgin">
+                        Submit
+                    </button>
+                </form>
+            </div>
+            <div class="holder__image">
+                <img src="assets/bg__holder.webp" alt="" loading="lazy">
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="flex-bl">
+                    <a href="/" class="logo"><img src="assets/logo.svg" alt=""></a>
+                    <ul class="nav nav1">
+                        <li class="nav__link"><a href="/">Home</a></li>
+                        <li class="nav__link"><a href="/pages/about/">About Us</a></li>
+                        <li class="nav__link"><a href="/pages/contact/">Contact Us</a></li>
+                        <li class="nav__link"><a href="/pages/signup/">Sign Up</a></li>
+                        <div class="footer-nav">
+                            <ul class="nav-footer">
+                                <li>
+                                    <div class="language language__1">
+                                        <a id="toggle-1" class="menu__link menu__link__1"><div class="iti__flag iti__gb"></div>En</a>
+                                        <ul class="submenu1">
+                                            <li class="subitem__1"><a href="/languages/dk/"><div class="iti__flag iti__dk"></div>DK</a></li>
+                                            <li class="subitem__1"><a href="/languages/de/"><div class="iti__flag iti__de"></div>DE</a></li>
+                                            <li class="subitem__1"><a href="/languages/cz/"><div class="iti__flag iti__cz"></div>CZ</a></li>
+                                            <li class="subitem__1"><a href="/languages/es/"><div class="iti__flag iti__es"></div>ES</a></li>
+                                            <li class="subitem__1"><a href="/languages/fi/"><div class="iti__flag iti__fi"></div>FI</a></li>
+                                            <li class="subitem__1"><a href="/languages/fr/"><div class="iti__flag iti__fr"></div>FR</a></li>
+                                            <li class="subitem__1"><a href="/languages/gr/"><div class="iti__flag iti__gr"></div>GR</a></li>
+                                            <li class="subitem__1"><a href="/languages/it/"><div class="iti__flag iti__it"></div>IT</a></li>
+                                            <li class="subitem__1"><a href="/languages/hu/"><div class="iti__flag iti__hu"></div>HU</a></li>
+                                            <li class="subitem__1"><a href="/languages/nl/"><div class="iti__flag iti__nl"></div>NL</a></li>
+                                            <li class="subitem__1"><a href="/languages/no/"><div class="iti__flag iti__no"></div>NO</a></li>
+                                            <li class="subitem__1"><a href="/languages/pl/"><div class="iti__flag iti__pl"></div>PL</a></li>
+                                            <li class="subitem__1"><a href="/languages/pt/"><div class="iti__flag iti__pt"></div>PT</a></li>
+                                            <li class="subitem__1"><a href="/languages/ru/"><div class="iti__flag iti__ru"></div>RU</a></li>
+                                            <li class="subitem__1"><a href="/languages/se/"><div class="iti__flag iti__se"></div>SE</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+                <p>
+                    <span>Important Risk Note:</span>
+                    It should be noted that investments can be very risky and should be approached with caution, especially during periods of extreme volatility. According to data, about 70% of investors lose money at one point or another. However, the market can also be very profitable with the right trades. Remember that ShaddersAgent, and any other commercial names used on this platform, are for commercial purposes only. Make sure you read the Terms and Conditions carefully, as they contain everything you need to know about how we operate. With regard to your personal information, you agree that we may share your personal information with necessary third parties. This primarily applies to organizations that provide trading services in accordance with our <a href="/pages/policy/">Privacy Policy</a> and <a href="/pages/terms/">Terms and Conditions</a>.
+                </p>
+            </div>
+            <hr class="footer-hr">
+            <div class="footer-bottom">
+                <div class="flex-bl">
+                    <div class="copyright">© Copyright ShaddersAgent, All Rights Reserved</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/intlTelInput.min.js"></script>
+<script>
+    var loaderWrapper = document.querySelector('.form__wrapper-loader');
+    if (loaderWrapper) {
+      loaderWrapper.classList.add('loader');
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+
+        window.localStorage.setItem('ip', '<?=$_SERVER["REMOTE_ADDR"];?>')
+        window.localStorage.setItem('lang', 'EN')
+
+      const input = document.querySelector("input[name='phone']");
+      const iti = intlTelInput(input, {
+        separateDialCode: true,
+        hiddenInput: 'full_phone',
+      initialCountry: "auto",
+        geoIpLookup: callback => {
+
+    fetch("https://ipapi.co/json")
+      .then(res => res.json())
+      .then(data => {
+          loaderWrapper.classList.remove('loader');
+          callback(data.country_code)
+          window.ip = data.ip
+          window.localStorage.setItem('country', data.country_code)
+          document.getElementById('ip').value = data.ip
+          document.getElementById('country').value = data.country_code
+        // document.getElementById('area_code').value = data.country_calling_code
+      })
+      .catch(() => callback("us"));
+  },
+        autoPlaceholder: 'aggressive',
+        utilsScript: "js/utils.js",
+      });
+      
+    $('#phone').on('countrychange', function() {
+        console.log(iti.getSelectedCountryData().iso2.toUpperCase())
+        $('#prefix').val($('.iti__selected-dial-code')[0].innerText)
+        $('#country').val(iti.getSelectedCountryData().iso2.toUpperCase())
+    })
+
+      const inputs = document.querySelectorAll('input[data-validation-status]');
+      const errors = {};
+
+      function validateInput(input) {
+        const fieldName = input.getAttribute('name');
+        const value = input.value;
+        const errorDiv = document.querySelector(`div[data-for-error='${fieldName}']`);
+        const checkIcon = document.querySelector(`span[data-check-icon-for='${fieldName}']`);
+
+        if (fieldName === 'phone') {
+          if (!iti.isValidNumber()) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        } else if (fieldName === 'email') {
+          if (!/\S+@\S+\.[A-Za-z]{2,}/.test(value)) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        } else {
+          if (value.length < 2) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        }
+
+        input.classList.remove('active-input', 'passed-input');
+        errorDiv.style.display = 'none';
+
+        if (errors[fieldName]) {
+          input.classList.add('active-input');
+          errorDiv.style.display = 'block';
+        } else {
+          input.classList.add('passed-input');
+        }
+      }
+
+      inputs.forEach(input => {
+        input.addEventListener('input', () => {
+          input.classList.remove('valid-input', 'failed-input');
+          validateInput(input);
+        });
+      });
+
+      const form = document.querySelector('form');
+
+      form.addEventListener('submit', function (event) {
+
+        inputs.forEach(input => validateInput(input));
+
+        const hasErrors = Object.values(errors).some(error => error);
+
+        if (hasErrors) {
+        event.preventDefault();
+          inputs.forEach(input => {
+            const fieldName = input.getAttribute('name');
+            if (errors[fieldName]) {
+              input.classList.add('failed-input');
+            }
+          });
+        } else {
+          var loaderWrapper = document.querySelector('.form__wrapper-loader');
+          if (loaderWrapper) {
+            loaderWrapper.classList.add('loader');
+          }
+
+          const url = 'order.php';
+          const formData = new FormData();
+          const countryCode = iti.getSelectedCountryData().dialCode;
+
+          inputs.forEach(input => {
+            const fieldName = input.getAttribute('name');
+            const value = input.value;
+            formData.append(fieldName, value);
+          });
+
+
+      formData.append('area_code', `+${countryCode}`);
+      formData.append('ip', window.ip ?? window.localStorage.getItem('ip'));
+      formData.append('country', iti.getSelectedCountryData().iso2.toUpperCase());
+
+          let full_p = document.getElementsByName('full_phone')
+          formData.append('full_phone', full_p[0].value)
+
+          const xhr = new XMLHttpRequest();
+          // xhr.open('POST', url, true);
+
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+              const res = JSON.parse(xhr.responseText);
+              const url = res.extras ? res.extras.redirect.url : null;
+
+              if (url) {
+
+                window.location.href = url;
+
+              } else if (window.localStorage.getItem('al') !== null) {
+
+                  window.location.href = window.localStorage.getItem('al');
+                  window.localStorage.removeItem('al');
+
+              } else {
+
+                var loaderWrapper = document.querySelector('.form__wrapper-loader');
+                if (loaderWrapper) {
+                  loaderWrapper.classList.remove('loader');
+                }
+
+                var ApiError = document.querySelector('.api-error');
+                if (ApiError) {
+                    ApiError.innerText = res.errors ? res.errors[0] : 'Something error, try again later.'
+                  ApiError.classList.add('loader');
+                }
+
+                var inputElements = document.querySelectorAll('input');
+                inputElements.forEach(function (inputElement) {
+                  inputElement.classList.remove('valid-input');
+                });
+
+                var checkIcons = document.querySelectorAll('.check-icon');
+
+                checkIcons.forEach(function (checkIcon) {
+                  checkIcon.removeAttribute('style');
+                });
+
+                var form = document.querySelector('.form-sender');
+                form.reset();
+              }
+            }
+          };
+
+          xhr.send(formData);
+        }
+      });
+    });
+</script>
+
+<script>
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+    let index = 0;
+
+    function showSlide(i) {
+      slides.forEach(slide => slide.classList.remove('active'));
+      slides[i].classList.add('active');
+    }
+
+    nextBtn.addEventListener('click', () => {
+      index = (index + 1) % slides.length;
+      showSlide(index);
+    });
+
+    prevBtn.addEventListener('click', () => {
+      index = (index - 1 + slides.length) % slides.length;
+      showSlide(index);
+    });
+</script>
+
+<script src="js/scripts.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
